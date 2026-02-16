@@ -23,7 +23,7 @@ export function LanguageSwitch() {
       variant="secondary"
       size="sm"
       onClick={() => router.push(replaceLocale(pathname, nextLocale))}
-      className="min-w-16"
+      className="min-w-16 cursor-pointer"
     >
       {locale === "uz" ? "RU" : "UZ"}
     </Button>
