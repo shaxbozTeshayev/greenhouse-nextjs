@@ -32,7 +32,6 @@ export function TestimonialsSection() {
             <Reveal key={it.textKey} delay={0.04 * idx}>
               <Card className="h-full transition hover:shadow-md">
                 <CardHeader className="flex flex-row items-center gap-4">
-                  {/* Avatar */}
                   <Avatar className="h-12 w-12">
                     <AvatarImage
                       src={`https://i.pravatar.cc/150?img=${idx + 10}`}
@@ -41,7 +40,6 @@ export function TestimonialsSection() {
                     <AvatarFallback>{t(it.nameKey).charAt(0)}</AvatarFallback>
                   </Avatar>
 
-                  {/* Name + Role */}
                   <div>
                     <div className="text-base font-semibold">
                       {t(it.nameKey)}

@@ -20,7 +20,6 @@ export function HeroSection() {
   return (
     <section className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 -z-10">
-        {/* FIXED classes + better sizing */}
         <div className="absolute left-1/2 -top-56 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-green-500/15 blur-3xl" />
         <div className="absolute right-[-180px] top-[120px] h-[420px] w-[420px] rounded-full bg-emerald-500/10 blur-3xl" />
       </div>
@@ -54,7 +53,6 @@ export function HeroSection() {
             </Button>
           </Reveal>
 
-          {/* Better grid behavior on small screens */}
           <Reveal
             delay={0.2}
             className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4"

@@ -1,6 +1,3 @@
-// ==============================
-// 6) FAQSection.tsx (REPLACE FULL FILE)
-// ==============================
 "use client";
 
 import { faqs } from "@/components/data/site-data";

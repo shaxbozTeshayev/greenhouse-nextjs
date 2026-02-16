@@ -36,7 +36,6 @@ export function CTASection() {
               </p>
 
               <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                {/* Phone */}
                 <Button asChild size="lg" className="w-full sm:w-auto">
                   <a href={`tel:${phone.replace(/\s/g, "")}`}>
                     <PhoneCall className="mr-2 h-4 w-4" />
@@ -44,7 +43,6 @@ export function CTASection() {
                   </a>
                 </Button>
 
-                {/* Telegram */}
                 <Button
                   asChild
                   size="lg"

@@ -1,8 +1,4 @@
-// ==============================
-// 9) Footer.tsx (OPTIONAL: small responsive polish, REPLACE FULL FILE)
-// ==============================
 import { ZaminAgroLogo } from "@/components/brand/logo";
-import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 
 export function Footer() {

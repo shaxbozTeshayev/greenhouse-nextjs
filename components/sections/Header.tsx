@@ -4,7 +4,6 @@ import { ZaminAgroLogo } from "@/components/brand/logo";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { LanguageSwitch } from "./LanguageSwitch";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -33,7 +32,6 @@ export function Header() {
           <ZaminAgroLogo />
         </a>
 
-        {/* Desktop nav */}
         <nav className="hidden items-center gap-6 md:flex">
           {nav.map((i) => (
             <a
@@ -56,7 +54,6 @@ export function Header() {
             <a href="#contacts">{t("contact")}</a>
           </Button>
 
-          {/* Mobile menu button */}
           <Button
             variant="secondary"
             size="icon"
@@ -69,7 +66,6 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile dropdown */}
       <div
         className={cn(
           "md:hidden overflow-hidden border-t bg-background/90 backdrop-blur",

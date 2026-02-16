@@ -45,12 +45,10 @@ export function ProductsSection() {
 
       <Separator className="my-6" />
 
-      {/* Better breakpoints for mobile/iPad */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {products.map((p, idx) => (
           <Reveal key={p.id} delay={0.03 * idx}>
             <Card className="h-full overflow-hidden pt-0">
-              {/* Image: slightly better aspect on phones */}
               <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-muted">
                 <Image
                   src={p.image.src}

@@ -7,7 +7,7 @@ export type Product = {
   tagKey?: string;
   image: {
     src: string;
-    altKey: string; // translation key for alt text
+    altKey: string;
   };
 };
 
