@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { LanguageSwitch } from "./LanguageSwitch";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -45,7 +46,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          {/* <LanguageSwitch /> */}
+          <LanguageSwitch />
 
           <Button asChild variant="secondary" className="hidden sm:inline-flex">
             <a href="#products">{t("seePrices")}</a>
