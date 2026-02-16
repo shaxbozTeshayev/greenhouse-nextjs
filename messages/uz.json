@@ -157,7 +157,7 @@
       "title": "Qisqa ma’lumot",
       "subtitle": "Uzbekistan • Issiqxona materiallari",
       "hoursTitle": "Ish vaqti",
-      "hoursText": "Har kuni: 09:00 – 19:00 (kelishib)",
+      "hoursText": "Har kuni",
       "deliveryTitle": "Yetkazish",
       "deliveryText": "Kelishuv asosida butun O‘zbekiston bo‘ylab",
       "wholesaleTitle": "Ulgurji",
@@ -166,7 +166,7 @@
   },
   "cta": {
     "kicker": "Bog‘lanish",
-    "title": "Buyurtma yoki maslahat uchun yozing",
+    "title": "Buyurtma yoki maslahat uchun",
     "subtitle": "Issiqxona o‘lchami va ekin turini aytsangiz, mos mahsulotlarni tavsiya qilamiz.",
     "call": "Qo‘ng‘iroq:",
     "telegram": "Telegram",

@@ -10,16 +10,19 @@ export const metadata: Metadata = {
     "Issiqxona mahsulotlari: klipsa, hosil ipi, kapelniy lenta va boshqalar.",
 };
 
+type Locale = (typeof locales)[number];
+
 export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const locale = locales.includes(params.locale as any)
-    ? (params.locale as (typeof locales)[number])
+  const { locale: paramLocale } = await params;
+
+  const locale: Locale = locales.includes(paramLocale as Locale)
+    ? (paramLocale as Locale)
     : defaultLocale;
 
   setRequestLocale(locale);

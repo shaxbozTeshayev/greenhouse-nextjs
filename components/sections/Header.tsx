@@ -47,7 +47,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <LanguageSwitch />
+          {/* <LanguageSwitch /> */}
 
           <Button asChild variant="secondary" className="hidden sm:inline-flex">
             <a href="#products">{t("seePrices")}</a>

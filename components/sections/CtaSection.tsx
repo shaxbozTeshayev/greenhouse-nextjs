@@ -11,7 +11,7 @@ export function CTASection() {
 
   const phone = "+998 94 544 44 49";
   const telegram = "https://t.me/zamin_agroo";
-  const instagram = "https://instagram.com/zamin_agroo"; // replace if needed
+  const instagram = "https://instagram.com/zamin_agro";
 
   return (
     <section
