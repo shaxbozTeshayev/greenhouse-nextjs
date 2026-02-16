@@ -1,6 +1,3 @@
-// ==============================
-// 5) TestimonialsSection.tsx (REPLACE FULL FILE)
-// ==============================
 "use client";
 
 import { testimonials } from "@/components/data/site-data";
@@ -8,6 +5,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 export function TestimonialsSection() {
   const t = useTranslations();
@@ -29,18 +27,32 @@ export function TestimonialsSection() {
 
         <Separator className="my-6" />
 
-        {/* Better breakpoints for mobile + iPad */}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((it, idx) => (
             <Reveal key={it.textKey} delay={0.04 * idx}>
-              <Card className="h-full">
-                <CardHeader>
-                  <div className="text-base font-semibold">{t(it.nameKey)}</div>
-                  <div className="text-xs text-muted-foreground">
-                    {t(it.roleKey)}
+              <Card className="h-full transition hover:shadow-md">
+                <CardHeader className="flex flex-row items-center gap-4">
+                  {/* Avatar */}
+                  <Avatar className="h-12 w-12">
+                    <AvatarImage
+                      src={`https://i.pravatar.cc/150?img=${idx + 10}`}
+                      alt={t(it.nameKey)}
+                    />
+                    <AvatarFallback>{t(it.nameKey).charAt(0)}</AvatarFallback>
+                  </Avatar>
+
+                  {/* Name + Role */}
+                  <div>
+                    <div className="text-base font-semibold">
+                      {t(it.nameKey)}
+                    </div>
+                    <div className="text-xs text-muted-foreground">
+                      {t(it.roleKey)}
+                    </div>
                   </div>
                 </CardHeader>
-                <CardContent className="text-sm text-muted-foreground">
+
+                <CardContent className="text-sm text-muted-foreground leading-relaxed">
                   “{t(it.textKey)}”
                 </CardContent>
               </Card>
