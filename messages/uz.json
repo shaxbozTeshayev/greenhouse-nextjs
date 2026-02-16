@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "products": "Mahsulotlar",
+    "testimonials": "Mijozlar fikri",
+    "faq": "FAQ",
+    "map": "Xarita",
+    "contacts": "Kontakt",
+    "seePrices": "Narxlarni ko‘rish",
+    "contact": "Bog‘lanish"
+  },
+  "common": {
+    "order": "Buyurtma",
+    "map": "Manzil"
+  },
+  "hero": {
+    "badge": "Zamin Agro — issiqxona mahsulotlari",
+    "title": "Issiqxonangiz uchun ishonchli va sifatli mahsulotlar",
+    "subtitle": "Klipsa, hosil ipi, kapelniy lenta, profil zajim va boshqa kerakli materiallar. Narxlar hamyonbop, sifat esa amaliyotda sinovdan o‘tgan.",
+    "primaryCta": "Mahsulotlarni ko‘rish",
+    "secondaryCta": "Manzilni ko‘rish",
+    "perks": {
+      "p1": {
+        "title": "Sifat nazorati",
+        "desc": "Amaliy va mustahkam materiallar"
+      },
+      "p2": {
+        "title": "Katta assortiment",
+        "desc": "Issiqxona uchun kerakli narsalar"
+      },
+      "p3": {
+        "title": "Yetkazib berish",
+        "desc": "O‘zbekiston bo‘ylab kelishib"
+      },
+      "p4": {
+        "title": "Fermerlar uchun",
+        "desc": "Hosildorlikni oshirishga yordam"
+      }
+    },
+    "card": {
+      "kicker": "Top mahsulotlar",
+      "title": "Issiqxona uchun tayyor to‘plam",
+      "subtitle": "Sizga mos variantni tavsiya qilamiz: issiqxona o‘lchami va ekin turiga qarab.",
+      "items": [
+        "Nihol klipsa",
+        "UV hosil ipi",
+        "Kapelniy lenta",
+        "Profil zajim / klipsa"
+      ],
+      "available": "bor",
+      "primary": "Narx so‘rash",
+      "secondary": "Katalog"
+    }
+  },
+  "productsSection": {
+    "kicker": "Katalog",
+    "title": "Mahsulotlar",
+    "hint": "Narxlar yo‘nalish sifatida keltirilgan. Aniq narx — miqdor va variantga qarab.",
+    "wholesaleCta": "Ulgurji narx so‘rash"
+  },
+  "products": {
+    "tags": {
+      "top": "Top",
+      "bestSeller": "Best seller"
+    },
+    "clip": {
+      "title": "Nihol klipsa",
+      "price": "3,000–6,000 so’m / dona",
+      "short": "Hosil ipini niholga mahkamlash uchun qulay va ishonchli klipsa.",
+      "b1": "Niholni shikastlamaydi",
+      "b2": "Ipni mustahkam ushlab turadi",
+      "b3": "Qattiq va sifatli plastik",
+      "b4": "Ko’p martalik foydalanish mumkin"
+    },
+    "twine": {
+      "title": "Issiqxona hosil ipi (UV)",
+      "price": "55,000–120,000 so’m / bobina",
+      "short": "Mustahkam hosil ipi — issiqxonada bog’lash uchun ideal.",
+      "b1": "UV qo’shimchali",
+      "b2": "Uzoq xizmat qiladi",
+      "b3": "Issiqxonaga mos"
+    },
+    "drip": {
+      "title": "Kapelniy lenta (NEO-DRIP)",
+      "price": "350,000–900,000 so’m / rulon",
+      "short": "Samarali sug’orish: suvni tejaydi va hosildorlikni oshiradi.",
+      "b1": "Suvni tejaydi",
+      "b2": "Ochiq maydon va issiqxona uchun",
+      "b3": "Bir tekis sug’oradi"
+    },
+    "binding": {
+      "title": "Sifatli lenta (bog’lash/mahkamlash)",
+      "price": "40,000–180,000 so’m / rulon",
+      "short": "Issiqxona konstruksiyasi va o’ram ishlari uchun amaliy lenta.",
+      "b1": "Mustahkam",
+      "b2": "Uzoq xizmat qiladi",
+      "b3": "Universal"
+    },
+    "profile": {
+      "title": "Profil zajim (issiqxona uchun)",
+      "price": "25,000–45,000 so’m / metr (taxminiy)",
+      "short": "Plyonkani profilga mahkamlash uchun ishonchli yechim.",
+      "b1": "Mahkam ushlaydi",
+      "b2": "Qulay o’rnatiladi",
+      "b3": "Uzoq muddat"
+    },
+    "pipeclip": {
+      "title": "Klipsa (25mm / 32mm)",
+      "price": "4,000–9,000 so’m / dona",
+      "short": "Issiqxona plyonkasi uchun quvur klipsalari (turli o’lcham).",
+      "b1": "Qattiq plastik",
+      "b2": "Uzoq xizmat qiladi",
+      "b3": "Konstruksiya uchun qulay"
+    }
+  },
+  "testimonialsSection": {
+    "kicker": "Ishonch",
+    "title": "Mijozlar fikri",
+    "hint": "Mahsulot sifati va xizmat bo‘yicha real feedbacklar."
+  },
+  "testimonials": {
+    "t1": {
+      "name": "Jaxongir, Shofirkon",
+      "role": "Issiqxona egasi",
+      "text": "Kapelniy lenta va hosil ipi oldim. Sifat zo’r, yetkazish ham tez bo’ldi."
+    },
+    "t2": {
+      "name": "Shoxnazar, G‘ijduvon",
+      "role": "Fermer",
+      "text": "Klipsalar niholni shikastlamaydi ekan. Oldin boshqa joydan olganim sinardi, bular mustahkam."
+    },
+    "t3": {
+      "name": "Nigora, Qorako‘l",
+      "role": "Agro-do‘kon",
+      "text": "Assortiment keng. Narxlar ham bozor bilan mos. Mijozlarim qayta-qayta so‘raydi."
+    }
+  },
+  "faqSection": {
+    "kicker": "Savol-javob",
+    "title": "FAQ",
+    "hint": "Eng ko‘p beriladigan savollar."
+  },
+  "faq": {
+    "q1": "Mahsulotlar qaysi shaharlarga yetkaziladi?",
+    "a1": "O‘zbekiston bo‘ylab kelishib yetkazib beramiz. Buyurtma hajmi va manzilga qarab logistika tanlanadi.",
+    "q2": "Narxlar qanday aniqlanadi?",
+    "a2": "Narx mahsulot turi, o‘lcham/variant va buyurtma miqdoriga bog‘liq. Katta buyurtmalarga chegirma bo‘lishi mumkin.",
+    "q3": "To‘lov usullari qanday?",
+    "a3": "Naqd, karta orqali yoki kelishuv asosida o‘tkazma. Tafsilotlarni bog‘lanib aniqlashtiramiz.",
+    "q4": "Kafolat bormi?",
+    "a4": "Ishlab chiqaruvchi va mahsulot turiga qarab. Masalan, UV qo‘shimchali ip va ayrim materiallar uzoq xizmatga mo‘ljallangan."
+  },
+  "mapSection": {
+    "kicker": "Lokatsiya",
+    "title": "Yandex xarita",
+    "hint": "Do‘kon/ombor manzili. Kelishdan oldin aloqaga chiqing.",
+    "side": {
+      "title": "Qisqa ma’lumot",
+      "subtitle": "Uzbekistan • Issiqxona materiallari",
+      "hoursTitle": "Ish vaqti",
+      "hoursText": "Har kuni: 09:00 – 19:00 (kelishib)",
+      "deliveryTitle": "Yetkazish",
+      "deliveryText": "Kelishuv asosida butun O‘zbekiston bo‘ylab",
+      "wholesaleTitle": "Ulgurji",
+      "wholesaleText": "Katta buyurtmalarga mos narxlar"
+    }
+  },
+  "cta": {
+    "kicker": "Bog‘lanish",
+    "title": "Buyurtma yoki maslahat uchun yozing",
+    "subtitle": "Issiqxona o‘lchami va ekin turini aytsangiz, mos mahsulotlarni tavsiya qilamiz.",
+    "call": "Qo‘ng‘iroq:",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "checklistTitle": "Tezkor checklist",
+    "checklist": [
+      "Issiqxona o‘lchami (uzunlik × kenglik)",
+      "Ekin turi (pomidor, bodring, …)",
+      "Kerakli miqdor (taxminiy)",
+      "Manzil (shahar/tuman)"
+    ],
+    "checklistNote": "Shu ma’lumotlar bilan yozsangiz, javob tezroq bo‘ladi."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "note": "Sayt: issiqxona materiallari — klipsa, hosil ipi, kapelniy lenta, profil zajim va boshqalar."
+  }
+}
